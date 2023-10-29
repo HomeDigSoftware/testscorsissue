@@ -1,38 +1,58 @@
-.App {
+
+body{
+  /* background-image: url('./choice-logo-zip-file/svg/logo-no-background.svg'); */
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position-x: 40vh;
+  background-position-y: 10vh;
+}
+
+h1 {
+  
+  
   text-align: center;
+  color: #881010;
+  background-color: gray;
+  width: 80%;
+  margin: auto;
+  
+}
+    
+
+.list-a {
+  margin: auto;
+  margin-top: 20px;
+  background-color: lightblue;
+  border: solid;
+  border-color: black;
+  width: 60%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.mylogo {
+  display: inline;
+  margin: auto;
+  width: 5%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.container-main {
+  /* display: flex;
+  flex-direction: row; */
+  /* justify-content: center;
+  justify-items: center;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  align-content: center; */
+  width: 100%;
 
-.App-link {
-  color: #61dafb;
 }
+.team-list{
+  position: absolute;
+  right: 10px;
+  top: 250px;
+  background-color: rgba(173, 216, 230, 0.856);
+  font-size: 25px;
+  border: solid;
+  border-color: black;
+  width: 40%;
+  height: 60%;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
